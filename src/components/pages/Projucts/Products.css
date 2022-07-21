@@ -1,0 +1,9 @@
+.products{
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    background-color:#205375ee;
+    color: white;
+    border: 1px solid #205375;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+}
