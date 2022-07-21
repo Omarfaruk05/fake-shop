@@ -9,11 +9,11 @@ import { Link } from 'react-router-dom';
 
 const NavComponent = () => {
     return (
-    <section className='container mt-4 fw-bold'>
+    <section className=' pt-4 fw-bold bg-light'>
       {['sm'].map((expand) => (
-            <Navbar key={expand} expand={expand} className="mb-3">
+            <Navbar key={expand} expand={expand} className="pb-3 container">
                 <Container fluid>
-                    <Navbar.Brand as={Link} to="/"><h1>Fake Shop</h1></Navbar.Brand>
+                    <Navbar.Brand as={Link} to="/"><h1 className='text-success fw-bold'>Fake Shop</h1></Navbar.Brand>
                     <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
                     <Navbar.Offcanvas
                     id={`offcanvasNavbar-expand-${expand}`}

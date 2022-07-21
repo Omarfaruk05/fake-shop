@@ -4,6 +4,7 @@ import Home from '../src/components/pages/Home'
 import { Route, Routes } from 'react-router-dom';
 import AllProducts from './components/pages/AllProducts/AllProducts';
 import Details from './components/pages/Details/Details';
+import Footer from './components/shared/Footer/Footer';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path='/blog' element={<Home></Home>}></Route>
         <Route path='/details/:id' element={<Details></Details>}></Route>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }

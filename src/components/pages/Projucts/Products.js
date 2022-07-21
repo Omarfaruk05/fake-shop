@@ -25,7 +25,7 @@ const Products = () => {
                 </CardGroup>
             </div>
             <div className='text-center w-100'>
-                <Link to={"/manageInventory"}><button className='button'>Manage Inventory</button></Link>
+                <Link to={"/products"}><button className='btn  btn-success mb-3 px-4'>SEE MORE</button></Link>
             </div>
        </div>
     );
