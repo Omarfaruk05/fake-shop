@@ -14,7 +14,7 @@ const Footer = () => {
                 <div className='row'>
                     <div className='col-md-4'>
                         <h3 className='mb-4'>ABOUT</h3>
-                        <p>This is one kind of electronic warehouse. Here you can all electronic products like TV, Refridgerator, Fan, Micro Woven, Sound System etc. </p>
+                        <p>This is e-comarce website. Here you can get electronic products like TV, Refridgerator, Fan, Micro Woven, Mens fession, Begs, Sound System etc. </p>
                     </div>
                     <div className='col-md-4'>
                         <h3 className='mb-4'>CONTACT INFO</h3>
